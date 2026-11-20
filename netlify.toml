@@ -1,0 +1,10 @@
+# Static site: plain HTML + images, no framework or build step.
+[build]
+  publish = "."
+  command = ""
+
+# The site has no index.html; serve the main page at the root URL.
+[[redirects]]
+  from = "/"
+  to = "/akshay_vadhu_var_kendra.html"
+  status = 200
